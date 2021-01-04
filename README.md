@@ -2,4 +2,4 @@
 
 Online resume version made with React.
 
-Credits: Brittany Chiang
+Credits: Brittany
