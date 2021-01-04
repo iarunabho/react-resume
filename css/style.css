@@ -1,10 +1,11 @@
-html, body {
+html,
+body {
   font-family: Helvetica;
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  font-family: 'Catamaran', sans-serif;
+  font-family: "Catamaran", sans-serif;
   letter-spacing: 0.3px;
 }
 
@@ -30,8 +31,9 @@ a {
 }
 
 .left .bg-img {
-  background: url('../img/headshot1-bw.png') center center no-repeat;
-  background-size: cover;
+  background: url("../img/profile.png") center
+    center no-repeat;
+  background-size: contain;
   height: 100%;
   width: 100%;
   position: absolute;
@@ -41,16 +43,16 @@ a {
   left: 0;
 }
 
-.left .bg-img:before{
-  content: '';
+.left .bg-img:before {
+  content: "";
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   background: #185a9d;
-  background-image: linear-gradient(to left top, #43cea2 , #185a9d);
-  opacity: 0.85;
+  background-image: linear-gradient(to left top, #43cea2, #185a9d);
+  opacity: 0.7;
 }
 
 .left-inner,
@@ -112,7 +114,8 @@ a {
 }
 
 @media screen and (max-width: 1000px) {
-  .left, .right {
+  .left,
+  .right {
     display: block;
     width: 100%;
   }
@@ -140,9 +143,9 @@ a {
   margin: 0 0 20px;
   text-transform: uppercase;
   font-size: 14px;
-  background-color: #2A54F5;
-  background-image: -webkit-linear-gradient(45deg,#2A54F5 0%,#33E5BB 100%);
-  background-image: linear-gradient(45deg,#2A54F5 0%,#33E5BB 100%);
+  background-color: #2a54f5;
+  background-image: -webkit-linear-gradient(45deg, #2a54f5 0%, #33e5bb 100%);
+  background-image: linear-gradient(45deg, #2a54f5 0%, #33e5bb 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -159,7 +162,6 @@ a {
   font-weight: 300;
   line-height: 1.5;
 }
-
 
 @media screen and (max-width: 600px) {
   .right h4,
@@ -182,14 +184,13 @@ a {
 
 .right .introduction .job-pls {
   font-weight: 500;
-  background-color: #2A54F5;
-  background-image: -webkit-linear-gradient(45deg,#2A54F5 0%,#33E5BB 100%);
-  background-image: linear-gradient(45deg,#2A54F5 0%,#33E5BB 100%);
+  background-color: #2a54f5;
+  background-image: -webkit-linear-gradient(45deg, #2a54f5 0%, #33e5bb 100%);
+  background-image: linear-gradient(45deg, #2a54f5 0%, #33e5bb 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
 }
-
 
 .right .skills .skill-category {
   margin-bottom: 10px;
@@ -313,9 +314,9 @@ a {
   font-weight: 700;
   font-size: 16px;
   text-transform: uppercase;
-  background-color: #2A54F5;
-  background-image: -webkit-linear-gradient(45deg,#2A54F5 0%,#33E5BB 100%);
-  background-image: linear-gradient(45deg,#2A54F5 0%,#33E5BB 100%);
+  background-color: #2a54f5;
+  background-image: -webkit-linear-gradient(45deg, #2a54f5 0%, #33e5bb 100%);
+  background-image: linear-gradient(45deg, #2a54f5 0%, #33e5bb 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
